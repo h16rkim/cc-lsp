@@ -1,0 +1,14 @@
+{
+  "kotlin": {
+    "command": "kotlin-lsp",
+    "args": [],
+    "extensionToLanguage": {
+      ".kt": "kotlin",
+      ".kts": "kotlin"
+    },
+    "transport": "stdio",
+    "startupTimeout": 30000,
+    "restartOnCrash": true,
+    "maxRestarts": 3
+  }
+}
