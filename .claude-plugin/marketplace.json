@@ -9,7 +9,7 @@
       "name": "kotlin-lsp",
       "source": "./kotlin-lsp",
       "description": "Kotlin language support for Claude Code using JetBrains official Kotlin LSP",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "h16rkim",
         "email": "h16rkim@gmail.com"
@@ -23,7 +23,16 @@
         "language-server",
         "jetbrains",
         "gradle"
-      ]
+      ],
+      "lspServers": {
+        "kotlin-lsp": {
+          "command": "kotlin-lsp",
+          "extensionToLanguage": {
+            ".kt": "kotlin",
+            ".kts": "kotlin"
+          }
+        }
+      }
     }
   ]
 }
