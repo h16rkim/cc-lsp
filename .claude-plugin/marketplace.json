@@ -1,5 +1,5 @@
 {
-  "name": "kotlin-lsp-marketplace",
+  "name": "cc-lsp",
   "owner": {
     "name": "h16rkim",
     "url": "https://github.com/h16rkim"
@@ -14,8 +14,8 @@
         "name": "h16rkim",
         "email": "h16rkim@gmail.com"
       },
-      "homepage": "https://github.com/h16rkim/cc-kotlin-lsp-plugin",
-      "repository": "https://github.com/h16rkim/cc-kotlin-lsp-plugin",
+      "homepage": "https://github.com/h16rkim/cc-lsp",
+      "repository": "https://github.com/h16rkim/cc-lsp",
       "license": "MIT",
       "keywords": [
         "kotlin",
@@ -33,6 +33,20 @@
           }
         }
       }
+    },
+    {
+      "name": "jdtls",
+      "source": "./jdtls",
+      "description": "Eclipse JDT Language Server for Java",
+      "version": "0.0.1",
+      "author": {
+        "name": "h16rkim",
+        "email": "h16rkim@gmail.com"
+      },
+      "homepage": "https://github.com/h16rkim/cc-lsp",
+      "repository": "https://github.com/h16rkim/cc-lsp",
+      "license": "MIT",
+      "keywords": ["java", "lsp", "language-server", "eclipse"]
     }
   ]
 }
