@@ -72,6 +72,16 @@
           }
         }
       }
+    },
+    {
+      "name": "fetch",
+      "source": "./fetch",
+      "description": "Fetch language support for Claude Code using fetch-server",
+      "version": "0.1.0",
+      "author": {
+        "name": "h16rkim",
+        "email": "h16rkim@gmail.com"
+      }
     }
   ]
 }
